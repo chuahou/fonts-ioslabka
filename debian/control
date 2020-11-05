@@ -1,4 +1,4 @@
-Source:            fonts-ioslabka
+Source:            iosevka
 Maintainer:        Chua Hou <human+github@chuahou.dev>
 Section:           fonts
 Priority:          optional
@@ -14,3 +14,11 @@ Description:  slender typeface for code, from code
  Coders' typeface, built from code.
  This package is a customized build for my own preferences, based on the
  Iosevka Slab variant (hence Ioslabka).
+
+Package:      fonts-iosevka
+Architecture: all
+Multi-Arch:   foreign
+Depends:      ${shlibs:Depends}, ${misc:Depends}
+Description:  slender typeface for code, from code
+ Coders' typeface, built from code.
+ Contains TTF builds of standard Iosevka and Iosevka Fixed.
