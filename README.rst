@@ -41,5 +41,12 @@ Dependencies
 For more details on dependencies for building Iosevka (not packaging!),
 see `be5invis/Iosevka <https://github.com/be5invis/Iosevka>`_.
 
+Misc
+====
+
+Why is the Debian versioning number "-kiwami"? This is because this is
+part of my efforts of creating personal Debian packages under
+`kiwami <https://github.com/chuahou/kiwami>`_.
+
 .. |License: MIT| image:: https://img.shields.io/badge/License-MIT-yellow.svg
 	:target: https://opensource.org/licenses/MIT
