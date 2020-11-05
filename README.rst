@@ -1,6 +1,6 @@
-##############
-fonts-ioslabka
-##############
+########
+ioslabka
+########
 
 |License: MIT|
 
