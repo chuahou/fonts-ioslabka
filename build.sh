@@ -5,7 +5,7 @@
 # function to complain that upstream tarball does not exist
 print_gettar () {
 	echo "Ensure that the upstream tarball has been downloaded to"
-	echo "../$(basename $(dirname $(realpath $0)))_x.x.x.orig.tar.gz"
+	echo "../iosevka_x.x.x.orig.tar.gz"
 }
 
 # ensure we are in script directory
@@ -15,7 +15,7 @@ if [ $(dirname $0) != '.' ]; then
 fi
 
 # check for upstream tarball
-UPTAR=$(ls ../$(basename $(dirname $(realpath $0)))_*.orig.tar.gz || \
+UPTAR=$(ls ../iosevka_*.orig.tar.gz || \
 	print_gettar)
 
 # extract tarball and move its contents, sans hidden files, out

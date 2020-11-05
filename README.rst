@@ -16,7 +16,7 @@ Usage
 
 #. First, obtain a release source code tarball from upstream at
    `be5invis/Iosevka <https://github.com/be5invis/Iosevka>`_. Place this
-   at ../fonts-ioslabka_x.x.x.orig.tar.gz, with x.x.x being the version
+   at ../iosevka_x.x.x.orig.tar.gz, with x.x.x being the version
    number.
 #. Edit the changelog at debian/changelog accordingly.
 #. Run ``./build.sh`` (or do typical debian packaging).
