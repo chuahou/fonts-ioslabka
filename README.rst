@@ -14,12 +14,32 @@ repository.*
 Usage
 ======
 
-Usage
+#. First, obtain a release source code tarball from upstream at
+   `be5invis/Iosevka <https://github.com/be5invis/Iosevka>`_. Place this
+   at ../fonts-ioslabka_x.x.x.orig.tar.gz, with x.x.x being the version
+   number.
+#. Edit the changelog at debian/changelog accordingly.
+#. Run ``./build.sh`` (or do typical debian packaging).
+
+Afterwards, you may wish to clean up using::
+
+	$ git clean -id # check no desired files will be cleaned
+	$ git clean -fd # perform the clean
 
 Dependencies
 ============
 
-Dependencies
+* Debian packaging dependencies
+
+  * build-essential
+  * devscripts
+  * debhelper
+
+* ttfautohint
+* nodejs
+
+For more details on dependencies for building Iosevka (not packaging!),
+see `be5invis/Iosevka <https://github.com/be5invis/Iosevka>`_.
 
 .. |License: MIT| image:: https://img.shields.io/badge/License-MIT-yellow.svg
 	:target: https://opensource.org/licenses/MIT
