@@ -21,4 +21,12 @@ Multi-Arch:   foreign
 Depends:      ${shlibs:Depends}, ${misc:Depends}
 Description:  slender typeface for code, from code
  Coders' typeface, built from code.
- Contains TTF builds of standard Iosevka and Iosevka Fixed.
+ Contains TTF build of standard Iosevka.
+
+Package:      fonts-iosevka-fixed
+Architecture: all
+Multi-Arch:   foreign
+Depends:      ${shlibs:Depends}, ${misc:Depends}
+Description:  slender typeface for code, from code
+ Coders' typeface, built from code.
+ Contains TTF build of standard Iosevka Fixed.

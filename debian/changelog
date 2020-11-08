@@ -1,3 +1,9 @@
+iosevka (3.7.1-kiwami+2) focal; urgency=medium
+
+  * Split fonts-iosevka package into fonts-iosevka with standard Iosevka, and
+    fonts-iosevka-fixed with Iosevka Fixed.
+  * Release for focal.
+
 iosevka (3.7.1-kiwami+1) UNRELEASED; urgency=medium
 
   * Add fonts-iosevka package containing standard Iosevka and Iosevka Fixed.
