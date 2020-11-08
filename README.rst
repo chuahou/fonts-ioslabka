@@ -1,3 +1,5 @@
+Migrated to my `PPA repository <https://github.com/chuahou/ppa>`_.
+
 ########
 ioslabka
 ########
